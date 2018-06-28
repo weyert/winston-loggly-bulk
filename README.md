@@ -38,6 +38,7 @@ The Loggly transport is based on [Nodejitsu's][2] [node-loggly][3] implementatio
   - __retriesInMilliSeconds:__ Time in milliseconds to retry sending buffered logs. 
 * __timestamp:__ If false, library will not include timestamp in log events. 
   - __Note:__ Library includes timestamp by default when we do not set timestamp option.
+* __networkErrorsOnConsole:__ The library keep track of different network errors and can log them to console. By default, logging errors on console is disabled and can be enabled easily by setting this parameter's value to `true`. If true, all the network errors will be logged to console.
 
 *Metadata:* Logged in suggested [Loggly format][5]
 
