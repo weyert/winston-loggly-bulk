@@ -8,6 +8,9 @@ A [Loggly][0] transport for [winston][1].
 
 A client implementation for Loggly in node.js. Check out Loggly's [Node logging documentation](https://www.loggly.com/docs/nodejs-logs/) for more.
 
+## Looking for `winston-loggly-bulk@3.x` documentation?
+
+Please note that the documentation below is for `winston-loggly-bulk@2.x`. [Read the winston-loggly-bulk@3.x documentation](https://github.com/loggly/winston-loggly-bulk/tree/3.x).
 
 ## Usage
 ``` js
